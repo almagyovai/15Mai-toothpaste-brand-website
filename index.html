@@ -23,14 +23,27 @@
                         <img src="./assets/images/Ecomint-Logo.png" alt="IMG" class="logo"><img/>
                     </a> 
                 </p>
-                
-            </a>
+                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                <label for="menu-toggle" class="menu-icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
         </div>
     </div>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+              <div class="collapse navbar-collapse">
                 <div class="navbar-nav">
-                  <a class="nav-link transition" aria-current="page" href="about-page.html">About</a> 
-                  <a class="nav-link transition" href="#">Fun Facts</a>
+                  <a class="nav-link transition" aria-current="page" href="index.html">About</a> 
+                  <div class="dropdown">
+                    <a class="nav-link1 transition dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Fun Facts ⯆
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="fun-facts.html">Fun Facts</a></li>
+                        <li><a class="dropdown-item" href="#">How to use</a></li>
+                        <li><a class="dropdown-item" href="#">FAQ</a></li>
+                    </ul>
+                </div>
                   <a class="nav-link transition" href="#Contact Us">Contact Us</a>
                 </div>
           </nav>
@@ -142,9 +155,82 @@
           <hr/>
         </section>
 
-        <section></section>
+        <section class="product-section">
+          <div class="wrapper">
+            <div class="item1">
+                <img src="./assets/images/mockup.jpg" alt="IMG" width="850" height="500" loading="lazy">
+            </div>
+              <div class="item2">
+                <h2 class="catch-phrase"><span class="padding mindaro"><span class="font2"> ecomint  </span> toothpaste</span></span></h2>
+                <p class="lead">Changing the world is a choice. Let your first choice be switching <br/>to zero-waste Earthly Toothpaste – it’s good for the environment <br/>and it’s good for you.</p>
+                <div class="button">
+                  <button type="button" class="btn-primary">View our Product</button>
+                </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="product-section2">
+          <div class="wrapper">
+            <div class="item1">
+                <img src="./assets/images/mieke-campbell-cbrQEHnTJwY-unsplash.jpg" alt="IMG" width="850" height="500" loading="lazy">
+            </div>
+              <div class="item2">
+                <h2 class="catch-phrase"><span class="padding mindaro">Good habits die hard</span></span></h2>
+                <p class="lead">Zero waste also means simplicity. Dental care should be straightforward, <br/>which is why we've developed fun and engaging tools to teach your kids <br/>the importance of good oral hygiene. Keeping it simple and effective.</p>
+                <div class="button">
+                  <button type="button" class="btn-primary">Learn more</button>
+                </div>
+            </div>
+          </div>
+        </section>
     
-        <footer></footer>
+        <footer class="footer">
+              <div class="row">
+                  <p class="circle2">
+                        <img src="./assets/images/Ecomint-Logo.png" alt="IMG" class="logo2"><img/>
+                </p>
+                  <div class="col-md-3">
+                      <h3>Company Info</h3>
+                      <p>We envision a world where personal hygiene <br/>and environmental responsibility go hand in hand.</p>
+                      <ul class="list-unstyled">
+                          <li><i class="fas fa-map-marker-alt">123 Street, City, Country</i></li>
+                          <li><i class="fas fa-envelope">ecomint@gmail.com</i></li>
+                          <li><i class="fas fa-phone"> +123 456 7890</i></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                      <h3>Products</h3>
+                      <ul class="list-unstyled">
+                          <li><a href="#">About</a></li>
+                          <li><a href="#">Fun Facts</a></li>
+                          <li><a href="#">How to use</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3">
+                      <h3>Consumer Care</h3>
+                      <ul class="list-unstyled">
+                          <li><p>+27 87 135 4845</p></li>
+                          <li><a href="#">consumercare@ecomint.com</a></li>
+                          <li><a href="#">eco.mint co.</a></li>
+                      </ul>
+                  </div>
+                  <div class="col-md-3 display-none">
+                      <ul class="list-unstyled">
+                          <li>
+                            <input type="email" id="email" value placeholder="Email*" name="email" required>
+                          </li>
+                          <li>
+                            <input type="mobilephone" id="mobilephone" value placeholder="Mobile phone*" name="mobilephone" required>
+                          </li>
+                          <li>
+                            <input type="message" id="message" value placeholder="Message*" name="message" required>
+                          </li>
+                          <input type="submit" value="Submit" class="nav-link">
+                      </ul>
+                  </div>
+              </div>
+      </footer>
     </main>
     
 </body>
