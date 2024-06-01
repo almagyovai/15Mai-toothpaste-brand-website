@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fun Facts</title>
+    <title>FAQ</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,7 +15,8 @@
 <body>
 
     <main class="container">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary display-flex">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary display-flex">
         <div class="container-fluid display-flex">
             <p class="circle">
                 <a class="navbar-brand" href="index.html">
@@ -24,17 +25,17 @@
             </p>
 
             <input type="checkbox" id="menu-toggle" class="menu-toggle">
-                <label for="menu-toggle" class="menu-icon">
-                  <span></span>
-                  <span></span>
-                  <span></span>
-              </label>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="fun-facts.html">Fun Facts</a></li>
-                  <li><a class="dropdown-item" href="how-to-use.html">How to use</a></li>
-                  <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
-                  <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
-              </ul>
+            <label for="menu-toggle" class="menu-icon">
+              <span></span>
+              <span></span>
+              <span></span>
+          </label>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="fun-facts.html">Fun Facts</a></li>
+              <li><a class="dropdown-item" href="how-to-use.html">How to use</a></li>
+              <li><a class="dropdown-item" href="faq.html">FAQ</a></li>
+              <li><a class="dropdown-item" href="contact-us.html">Contact Us</a></li>
+          </ul>
     </div>
 </div>
           <div class="collapse navbar-collapse">
@@ -54,24 +55,43 @@
             </div>
       </nav>
 
-      <section class="card-section">
-        <div class="card">
-            <img src="./assets/images/smile.png" class="image-card" alt="IMG"/>
-            <h3>How Eco-Friendly Toothpaste Can Improve Your Smile</h3>
-            <p>Eco-friendly toothpaste is gaining popularity not just for its environmental benefits but also for its positive impact on dental health. <br/>Here's how making the switch to eco-friendly toothpaste can lead to a healthier, brighter smile: …</p>
+    <div class="faq-accordion">
+
+        <div class="faq-container">
+            <h1>FAQ</h1>
+            <div class="accordion">
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>What is eco-friendly toothpaste?</span>
+                        <span class="icon" aria-hidden="true">&#x25bc;</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Eco-friendly toothpaste is made with natural ingredients that are safe for the environment and free from harmful chemicals. It typically comes in recyclable or biodegradable packaging.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>How does eco-friendly toothpaste benefit the environment?</span>
+                        <span class="icon" aria-hidden="true">&#x25bc;</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Eco-friendly toothpaste reduces pollution by using biodegradable ingredients and packaging. This helps decrease the amount of plastic waste and harmful chemicals released into the environment.</p>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <button class="accordion-header" aria-expanded="false">
+                        <span>Is eco-friendly toothpaste effective?</span>
+                        <span class="icon" aria-hidden="true">&#x25bc;</span>
+                    </button>
+                    <div class="accordion-content">
+                        <p>Yes, eco-friendly toothpaste can be just as effective as conventional toothpaste in maintaining oral hygiene. Many eco-friendly toothpastes contain natural ingredients known for their cleaning and antibacterial properties.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="card">
-            <img src="./assets/images/marek-okon-tWWCqIMiUmg-unsplash.jpg" class="image-card" alt="IMG"/>
-            <h3>Environmental Impact of Toothpaste</h3>
-            <p>Many toothpastes contain harmful ingredients, such as triclosan, carrageenan, propylene glycol, microbeads (microplastics) and artificial colours, which when washed down the drain, can contribute to water pollution and have adverse effects on our fragile aquatic ecosystems and marine …</p>
-        </div>
-        <div class="card">
-            <img src="./assets/images/naja-bertolt-jensen-FxnqdmKBJps-unsplash.jpg" class="image-card" alt="IMG"/>
-            <h3>Toothpaste Tube Pollution</h3>
-            <p>You may never have thought about what happens to your toothpaste tube once you’re finished with it. Many of us, with good intention, wash out the tube when it’s run out and place it into our recycling bin. The truth is, generic toothpaste tubes are made from a combination of materials, including crude oil and aluminum, which makes them non-recyclable. Those toothpaste tubes have …</p>
-        </div>
-    </section>
-    
+
+    </div>
+   
     <footer class="footer">
         <div class="row">
             <p class="circle2">
@@ -117,9 +137,9 @@
                 </ul>
             </div>
         </div>
-</footer>
 
-    </main>
+    </footer>
+</main>
 
 </body>
 </html>
