@@ -373,7 +373,7 @@ span.font2{
    }
    
    .btn-primary a{
-       padding: 17px 35px;
+       padding: 17px 30px;
        margin: 0 -10px;
        border: transparent;
        border-radius: 50px;
@@ -399,6 +399,44 @@ span.font2{
        font-size: 17px;
        text-decoration: underline solid #132A13;
    }
+
+   
+   .btn-secondary{
+    display: inline-block;
+    margin-left: 270px !important;
+    vertical-align: baseline;
+   }
+
+   .btn-secondary a{
+height: 43px;
+text-align: center;
+    padding: 10px 20px 15px 20px;
+    margin: -10px -10px;
+    border: transparent;
+    border-radius: 50px;
+    background-color: #4F772D;
+    color: #fff;
+    font-family: Lato, sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.btn-secondary a:active{
+    padding: 10px 20px;
+    margin: 0 -10px;
+    border: transparent solid;
+    border-radius: 50px;
+    background-color: #90A955;
+    color: #132A13;
+    font-family: Lato, sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+    text-decoration: underline solid #132A13;
+}
+
 
 /* Carousel Section */
 
@@ -939,7 +977,7 @@ p + .list-unstyled{
 }
 
 .card h3 {
-    font-size: 24px;
+    font-size: 20px;
     color: #333;
     margin: 15px 0;
 }
